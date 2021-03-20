@@ -1,6 +1,6 @@
-web:gunicorn pypro.wsgi
+web:gunicorn --pypro.wsgi --log-file -
 scale web=1
 
-# Teste: retira o conteúdo abaixo
+# Teste: retira o conteúdo abaixo?
 # --log-file -
 

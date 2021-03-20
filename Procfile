@@ -1,1 +1,5 @@
-web:gunicorn pypro.wsgi --log-file -
+web:gunicorn pypro.wsgi
+
+# Teste: retira o conteúdo abaixo
+# --log-file -
+
